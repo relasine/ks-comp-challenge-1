@@ -5,13 +5,16 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
-/*  align-items: center;
-  justify-items: center;*/
+}
+
+h2 {
+  margin-left: 1rem;
+  margin-top: 0;
 }
 
 p {
   text-align: center;
-  margin-top: .5em;
+  margin-top: .5rem;
   margin-bottom: 0;
 }
 
@@ -20,14 +23,16 @@ section {
 }
 
 .intro-text {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
+  justify-content: left;
 }
 
 .wrapper-div {
   display: grid;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .header-div {
@@ -71,12 +76,13 @@ section {
 .portrait-img {
   min-height: 100vh;
   max-width: 100%;
+  object-fit: cover;
 }
 
 .icon {
   display: block;
   margin: auto;
-  margin-bottom: .5em;
-  width: 4em;
+  margin-bottom: .5rem;
+  width: 4rem;
 }
 
