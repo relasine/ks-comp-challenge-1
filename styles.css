@@ -57,10 +57,6 @@ section {
   text-shadow: 2px 2px 2px #313131;
 }
 
-.profile-div {
-  background-color: #f6db35;
-}
-
 .portrait-div {
   grid-column: 4/6;
   grid-row: 1/4;
@@ -107,7 +103,7 @@ section {
   background-color: #ee5454;
 }
 
-.plane-div {
+.plane-div, .contact-div {
   background-color: #58b15d;
 }
 
@@ -115,12 +111,8 @@ section {
   background-color: #4c69f6;
 }
 
-.train-div {
+.train-div, .profile-div {
   background-color: #f6db35;
-}
-
-.contact-div {
-  background-color: #58b15d;
 }
 
 .icon {
