@@ -79,7 +79,12 @@ section {
 .picture-btn {
   position: absolute;
   top: 50%;
+  transition: .2s;
   width: 3em;
+}
+
+.picture-btn:hover {
+  transform: scale(1.3);  
 }
 
 .portrait-img {
